@@ -38,6 +38,35 @@
       echo "function print: Hello world!";
     }
     writeMsg();
+
+    $arr = array('Daniel', 'Micheal', 'Dennis');
+    echo "<br>";
+    echo "return the first element in an array: ";
+    echo $arr['0'];
+
+    // comparison operators
+    $x = 5;
+    $y = 10;
+    echo "<br>";
+    if ($x === $y) {
+      echo "True";
+    }
+
+    if ($x !== $y) {
+      echo "False";
+    }
+
+    // increment/decrement
+    $n = 10;
+    echo "<br>";
+    echo "increment/decrement";
+    echo ++$n;
+    $m = 10;
+    echo $m++;
+    echo $m;
+
+    // logical operator "or" "and" || && "xor"
+
   ?>
   
 </body>
