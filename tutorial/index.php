@@ -70,6 +70,8 @@
     
     ?>
     <?php include 'calculator.php';?>
+
+    <a href="loops.php">Loop tutorial</a>
   
 </body>
 
