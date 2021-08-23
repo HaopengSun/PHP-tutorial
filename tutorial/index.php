@@ -67,7 +67,9 @@
 
     // logical operator "or" "and" || && "xor"
 
-  ?>
+    
+    ?>
+    <?php include 'calculator.php';?>
   
 </body>
 
