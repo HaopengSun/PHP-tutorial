@@ -86,6 +86,13 @@
     <?php
       $_SESSION['username'] = "dani948a";
       echo $_SESSION['username'];
+      echo "<br>";
+
+      if(!isset($_SESSION['username'])){
+        echo "You are not logged in!";
+      } else {
+        echo "You are logged in!";
+      }
     ?>
 
   
