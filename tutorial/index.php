@@ -1,3 +1,7 @@
+<?php
+  session_start()
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -72,6 +76,18 @@
     <?php include 'calculator.php';?>
 
     <a href="loops.php">Loop tutorial</a>
+    <a href="superVar.php">Super globle variables tutorial</a>
+
+    <ul>
+      <li><a href="index.php">HOME</a></li>
+      <li><a href="contact.php">CONTACT</a></li>
+    </ul>
+
+    <?php
+      $_SESSION['username'] = "dani948a";
+      echo $_SESSION['username'];
+    ?>
+
   
 </body>
 
