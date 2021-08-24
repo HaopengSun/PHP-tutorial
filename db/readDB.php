@@ -16,6 +16,6 @@ echo "<br>";
 
 $result1 = $conn->query($sql);
 while ($row1 = $result1->fetch_assoc()) {
-    echo $row1["user_uid"]."<br>";
+    echo $row1["user_first"]."<br>";
 }
 ?>

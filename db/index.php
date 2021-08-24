@@ -11,5 +11,6 @@
 <body>
   <h3>Connect to DB</h3>
   <?php include_once 'readDB.php';?>
+  <?php include_once 'insertDB.php';?>
 </body>
 </html>
