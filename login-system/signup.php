@@ -5,24 +5,24 @@
   <div class="container center">
     <h1>Sign Up</h1>
 
-    <label for="email"><b>Name</b></label>
+    <label for="name"><b>Name</b></label>
     <input type="text" placeholder="Enter Full Name" name="name" required>
 
     <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" required>
 
-    <label for="email"><b>Username</b></label>
+    <label for="uid"><b>Username</b></label>
     <input type="text" placeholder="Enter User Name" name="uid" required>
 
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="pwd" required>
 
-    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <label for="pswrepeat"><b>Repeat Password</b></label>
     <input type="password" placeholder="Repeat Password" name="pwdrepeat" required>
 
     <div class="clearfix">
-      <button type="button" class="cancelbtn" name="submit">Cancel</button>
-      <button type="submit" class="signupbtn">Sign Up</button>
+      <button type="button" class="cancelbtn" >Cancel</button>
+      <button type="submit" class="signupbtn" name="submit">Sign Up</button>
     </div>
   </div>
 </form>
